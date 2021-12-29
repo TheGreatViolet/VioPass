@@ -1,0 +1,57 @@
+QMainWindow {
+    background-color: rgb(40, 40, 40);
+}
+
+QPushButton {
+    background-color: transparent;
+    color: rgb(221, 221, 221);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 2px;
+    font: 14;
+}
+
+QPushButton:hover {
+    background-color: rgb(31, 31, 138);
+    border-color: rgb(31, 31, 138);
+    border-style: solid;
+    font: roboto-mono;
+}
+
+QLabel {
+    font: roboto-mono;
+    color: rgb(221, 221, 221);
+}
+
+QLineEdit {
+    background-color: rgb(40, 40, 40);
+    color: rgb(221, 221, 221);
+    border-color: rgb(221, 221, 221);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    font: roboto-mono;
+}
+
+QListWidget {
+    background-color: gray;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: rgb(221, 221, 221);
+    padding-left: 10px;
+}
+
+QListView::item {
+    padding-bottom: 4px;
+    
+}
+
+QMessageBox {
+    background-color: gray;
+    color: rgb(221, 221, 221);
+}
+
+QWidget {
+    background-color: rgb(40, 40, 40);
+}
